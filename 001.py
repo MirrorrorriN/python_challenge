@@ -27,6 +27,6 @@ if __name__=="__main__":
 
 	#using string.maketrans() suggested by hint.
 	cipher=string.lowercase #"abcdef...xyz"
-	t=string.maketrans(cipher,cipher[2:]+cipher[:2])
-	text=s.translate(t)
+	t=string.maketrans(cipher,cipher[2:]+cipher[:2]) #create cipher book
+	text=s.translate(t)  #decoding
 	print text
