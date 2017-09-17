@@ -1,3 +1,4 @@
+#http://www.pythonchallenge.com/pc/def/ocr.html
 import urllib
 import re
 def get_challenge(s):
